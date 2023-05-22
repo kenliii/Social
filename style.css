@@ -35,6 +35,35 @@ body {
 .customer-rating {
     display: flex;
     flex-wrap: wrap;
-    background-color: #fff;
-    
+    background-color: hsl(300, 24%, 96%);
+    padding: .7rem 1.5rem;
+    margin-bottom: .8rem;
+    font-size: .7rem;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.rating-img {
+    margin-right: 1rem;
+}
+
+.rating-1 {
+    margin-left: 3rem;
+}
+
+.rating-3 {
+    margin-left: 9rem;
+}
+
+.rating-2 {
+    margin-left: 6rem;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.review-card {
+    display: flex;
+    justify-content: space-between;
 }
