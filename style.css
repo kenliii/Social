@@ -4,3 +4,37 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-image: url("images/bg-pattern-top-desktop.svg");
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.top h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.top p {
+    font-size: .9rem;
+}
+
+.customer-rating {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    
+}
