@@ -76,4 +76,17 @@ body {
     margin-right: 1rem;
     padding: 20px 15px;
     border-radius: 8px;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 1rem;
 }
